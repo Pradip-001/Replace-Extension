@@ -1,8 +1,13 @@
 {
-  "name": "first",
-  "displayName": "first",
+  "name": "replace-selected",
+  "displayName": "replace-selected",
   "description": "",
   "version": "0.0.1",
+  "publisher": "pradip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pradip-001/Replace-Extension"
+  },
   "engines": {
     "vscode": "^1.34.0"
   },
@@ -29,9 +34,6 @@
       "editor/context": [
         {
           "command": "extension.replaceSelection"
-        },
-        {
-          "command": "extension.replaceSelectionRedo"
         }
       ]
     }
